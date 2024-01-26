@@ -1,0 +1,17 @@
+:root {
+    /* FONT */
+    --font-dm-sans: "DM Sans", sans-serif;
+
+    /* COLORS */
+    --background: rgba(0,0,0,7);
+    --black: #000;
+    --sub-black: #131313;
+    --white: #fff;
+    --dark-gray: #121212;
+    --medium-gray: #242424;
+    --light-gray: #b3b3b3;
+    --light-gray-2: #a7a7a7;
+    --gray: #878787;
+    --pink: #ae2896;
+    --blue: #509bf5;
+}
