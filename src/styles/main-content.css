@@ -89,3 +89,245 @@
     font-weight: 700;
     border-radius: 40px;
 }
+
+/* PLAYLIST */
+.playlist-container {
+    height: 68vh;
+    padding-top: 16px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: var(--dark-gray);
+  }
+  
+  .playlist {
+    margin: 24px;
+  }
+  
+  .playlist #greeting {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  
+  .playlist .session {
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* SCROLL */
+  .offer__scroll-container {
+    max-height: 43vh;
+    margin: 24px;
+    overflow-y: auto;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar {
+    width: 1px;
+  }
+  
+  .offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  /* FIM SCROLL */
+  
+  .offer__list-item {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+  
+    /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
+    display: grid;
+    gap: 16px;
+    grid-gap: 32px;
+    margin: 0 auto;
+  }
+  
+  .cards {
+    position: relative; 
+    width: 220px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .cards span {
+    padding: 16px;
+    position: absolute;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  /* COLOR CARDS */
+  .card1 {
+    background-color: var(--green);
+  }
+  .card2 {
+    background-color: var(--purple);
+  }
+  .card3 {
+    background: var(--dark-blue);
+  }
+  .card4 {
+    background: var(--red);
+  }
+  .card5 {
+    background: var(--hot-pink);
+  }
+  .card6 {
+    background: var(--light-blue);
+  }
+  .card7 {
+    background: var(--light-purple);
+  }
+  .card8 {
+    background: var(--grass-green);
+  }
+  .card9 {
+    background: var(--medium-blue);
+  }
+  .card10 {
+    background: var(--hot-red);
+  }
+  .card11 {
+    background: var(--medium-purple);
+  }
+  .card12 {
+    background: var(--orange);
+  }
+  .card13 {
+    background: var(--light-orange);
+  }
+  .card14 {
+    background: var(--dark-blue);
+  }
+  .card15 {
+    background: --dark-purple;
+  }
+  /* FIM COLOR CARDS */
+  
+  .offer__list-item img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: auto;
+    width: 107px;
+    transform: rotate(25deg) translate(18%, -2%);
+  }
+  
+  /* CARD ARTISTA */
+  
+  .artist {
+    --column-count: 5;
+    --grid-gap: 24px;
+    --min-container-width: 372px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .grid-container {
+    grid-gap:24px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-width: 767px;
+  }
+  
+  .artist-card {
+    background: var(--medium-gray-3);
+    border-radius: 8px;
+    -ms-flex: 1;
+    flex: 1;
+    isolation: isolate;
+    padding: 16px;
+    position: relative;
+    transition: background-color 0.3s ease;
+    width: 100%;
+  }
+  
+  .artist-card:hover {
+    background-color: var(--medium-gray-2);
+  }
+  
+  .card-img {
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  .artist-img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .card-text {
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    min-height: 62px;
+  }
+  
+  .card-text a {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+  }
+  
+  .artist-name {
+    box-sizing: border-box;
+    margin-block: 0px;
+    font-size: 16px;
+    font-weight: 700;
+    padding-block-end: 8px;
+  }
+  
+  .artist-categorie {
+    color: var(--sub-gray);
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+  
+  .play {
+    position: relative;
+  }
+  
+  .play .fa-play {
+    position: absolute;
+    right: 10px;
+    top: 120px;
+    padding: 18px;
+    background-color: var(--grass-green);
+    border-radius: 100%;
+    font-size: 14px;
+    opacity: 0;
+    transition: all ease 0.4s;
+  }
+  
+  .artist-card:hover .play .fa-play {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  
+  .play .fa-play:hover {
+    padding: 20px;
+    cursor: pointer;
+  }
+  
+  #result-artist {
+    padding: 20px 40px;
+  }
+  /* FIM CARD ARTISTA */

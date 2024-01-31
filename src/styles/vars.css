@@ -4,14 +4,31 @@
 
     /* COLORS */
     --background: rgba(0,0,0,7);
-    --black: #000;
-    --sub-black: #131313;
     --white: #fff;
-    --dark-gray: #121212;
-    --medium-gray: #242424;
+    --gray: #878787; 
+    --sub-gray: #6a6a6a;
     --light-gray: #b3b3b3;
     --light-gray-2: #a7a7a7;
-    --gray: #878787;
+    --medium-gray: #242424;
+    --medium-gray-2: #252525
+    --medium-gray-3: #181818;
+    --dark-gray: #121212;
+    --black: #000;
+    --sub-black: #131313;
     --pink: #ae2896;
+    --hot-pink: rgb(232, 17, 91);
     --blue: #509bf5;
+    --light-blue: rgb(83, 122, 161);
+    --medium-blue: rgb(30, 50, 100);
+    --dark-blue: rgb(0, 30, 80);
+    --green: rgb(0, 100, 80);
+    --grass-green: rgb(20, 138, 8);
+    --purple: rgb(132, 0, 231);
+    --light-purple: rgb(142, 102, 172);
+    --medium-purple: rgb(80, 55, 80);
+    --dark-purple: rgb(60, 30, 80);
+    --red: rgb(140, 25, 50);
+    --hot-red: rgb(233, 20, 41);
+    --orange: rgb(216, 64, 0);
+    --light-orange: rgb(186, 93, 7);
 }
