@@ -12,3 +12,5 @@ Este projeto consiste em fazer uma réplica da página inicial de navegação do
 
 ## 
 Divirta-se explorando o projeto!
+
+https://luanapalmeira.github.io/spotify-alura/
